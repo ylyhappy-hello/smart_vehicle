@@ -1,0 +1,2 @@
+com.ncst.vehicle.framework.idempotent.config.VehicleIdempotentConfiguration
+com.ncst.vehicle.framework.lock4j.config.VehicleLock4jConfiguration

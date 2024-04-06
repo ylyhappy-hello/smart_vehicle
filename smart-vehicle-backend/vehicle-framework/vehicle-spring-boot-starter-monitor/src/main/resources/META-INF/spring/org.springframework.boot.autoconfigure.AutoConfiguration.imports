@@ -1,0 +1,2 @@
+com.ncst.vehicle.framework.tracer.config.VehicleTracerAutoConfiguration
+com.ncst.vehicle.framework.tracer.config.VehicleMetricsAutoConfiguration

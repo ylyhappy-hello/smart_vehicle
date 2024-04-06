@@ -1,0 +1,2 @@
+com.ncst.vehicle.framework.quartz.config.VehicleQuartzAutoConfiguration
+com.ncst.vehicle.framework.quartz.config.VehicleAsyncAutoConfiguration

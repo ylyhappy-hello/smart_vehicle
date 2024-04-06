@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ncst.smart</groupId>
+    <artifactId>vehicle-module-motocycleAccident</artifactId>
+    <version>${revision}</version>
+  </parent>
+  <groupId>com.ncst.smart</groupId>
+  <artifactId>vehicle-module-motocycleAccident-biz</artifactId>
+  <name>vehicle-module-motocycleAccident-biz</name>
+  <packaging>jar</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+           <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-module-motocycleAccident-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-biz-operatelog</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- Excel 相关 -->
+        <dependency>
+            <groupId>com.ncst.smart</groupId>
+            <artifactId>vehicle-spring-boot-starter-excel</artifactId>
+        </dependency>
+  </dependencies>
+</project>
+

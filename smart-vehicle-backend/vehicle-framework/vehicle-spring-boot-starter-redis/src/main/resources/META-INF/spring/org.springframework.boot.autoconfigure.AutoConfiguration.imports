@@ -1,0 +1,2 @@
+com.ncst.vehicle.framework.redis.config.VehicleRedisAutoConfiguration
+com.ncst.vehicle.framework.redis.config.VehicleCacheAutoConfiguration

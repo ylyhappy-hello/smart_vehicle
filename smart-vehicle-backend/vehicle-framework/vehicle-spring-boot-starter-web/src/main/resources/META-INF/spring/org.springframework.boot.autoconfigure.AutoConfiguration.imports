@@ -1,0 +1,6 @@
+com.ncst.vehicle.framework.apilog.config.VehicleApiLogAutoConfiguration
+com.ncst.vehicle.framework.jackson.config.VehicleJacksonAutoConfiguration
+com.github.xiaoymin.knife4j.spring.configuration.Knife4jAutoConfiguration
+com.ncst.vehicle.framework.swagger.config.VehicleSwaggerAutoConfiguration
+com.ncst.vehicle.framework.web.config.VehicleWebAutoConfiguration
+com.ncst.vehicle.framework.xss.config.VehicleXssAutoConfiguration

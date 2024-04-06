@@ -1,0 +1,2 @@
+com.ncst.vehicle.framework.security.config.VehicleSecurityAutoConfiguration
+com.ncst.vehicle.framework.security.config.VehicleWebSecurityConfigurerAdapter
